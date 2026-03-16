@@ -1,0 +1,1667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kd crurier</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/aos.css">
+</head>
+
+<body>
+    <header>
+        <div class="topbar-flex">
+            <div class="topbar">
+                <div class="location-select">
+                    <span class="current">
+                        <span class="label">London</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24"
+                            fill="none">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M5.70711 9.71069C5.31658 10.1012 5.31658 10.7344 5.70711 11.1249L10.5993 16.0123C11.3805 16.7927 12.6463 16.7924 13.4271 16.0117L18.3174 11.1213C18.708 10.7308 18.708 10.0976 18.3174 9.70708C17.9269 9.31655 17.2937 9.31655 16.9032 9.70708L12.7176 13.8927C12.3271 14.2833 11.6939 14.2832 11.3034 13.8927L7.12132 9.71069C6.7308 9.32016 6.09763 9.32016 5.70711 9.71069Z"
+                                    fill="#FFF"></path>
+                            </g>
+                        </svg>
+                    </span>
+                    <ul class="options" style="display: none;">
+                        <li data-id="london">London</li>
+                        <li data-id="newyork">New York</li>
+                    </ul>
+                </div>
+                <div class="info" id="london" style="">
+                    <div class="info-details">
+                        <div class="info-flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 16 16"
+                                fill="none">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM7 3V8.41421L10.2929 11.7071L11.7071 10.2929L9 7.58579V3H7Z"
+                                        fill="#FFF"></path>
+                                </g>
+                            </svg>
+                            Mon - Fri / 09:00 - 19:00
+                        </div>
+                        <span>|</span>
+                        <div class="info-flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#FFF" width="800px" height="800px"
+                                viewBox="0 0 512 512" stroke="#FFF">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M512 464c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V200.724a48 48 0 0 1 18.387-37.776c24.913-19.529 45.501-35.365 164.2-121.511C199.412 29.17 232.797-.347 256 .003c23.198-.354 56.596 29.172 73.413 41.433 118.687 86.137 139.303 101.995 164.2 121.512A48 48 0 0 1 512 200.724V464zm-65.666-196.605c-2.563-3.728-7.7-4.595-11.339-1.907-22.845 16.873-55.462 40.705-105.582 77.079-16.825 12.266-50.21 41.781-73.413 41.43-23.211.344-56.559-29.143-73.413-41.43-50.114-36.37-82.734-60.204-105.582-77.079-3.639-2.688-8.776-1.821-11.339 1.907l-9.072 13.196a7.998 7.998 0 0 0 1.839 10.967c22.887 16.899 55.454 40.69 105.303 76.868 20.274 14.781 56.524 47.813 92.264 47.573 35.724.242 71.961-32.771 92.263-47.573 49.85-36.179 82.418-59.97 105.303-76.868a7.998 7.998 0 0 0 1.839-10.967l-9.071-13.196z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <a href="#">admin@logiscotheme.co</a>
+                        </div>
+                        <span>|</span>
+                        <div class="info-flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24"
+                                fill="none">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M2.00589 4.54166C1.905 3.11236 3.11531 2 4.54522 2H7.60606C8.34006 2 9.00207 2.44226 9.28438 3.1212L10.5643 6.19946C10.8761 6.94932 10.6548 7.81544 10.0218 8.32292L9.22394 8.96254C8.86788 9.24798 8.74683 9.74018 8.95794 10.1448C10.0429 12.2241 11.6464 13.9888 13.5964 15.2667C14.008 15.5364 14.5517 15.4291 14.8588 15.0445L15.6902 14.003C16.1966 13.3687 17.0609 13.147 17.8092 13.4594L20.8811 14.742C21.5587 15.0249 22 15.6883 22 16.4238V19.5C22 20.9329 20.8489 22.0955 19.4226 21.9941C10.3021 21.3452 2.65247 13.7017 2.00589 4.54166Z"
+                                        fill="#FFF"></path>
+                                </g>
+                            </svg>
+                            +44-324-345-67
+                        </div>
+                    </div>
+                </div>
+                <div class="info" id="newyork" style="display: none;">
+                    <div class="info-details">
+                        <div class="info-flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 16 16"
+                                fill="none">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM7 3V8.41421L10.2929 11.7071L11.7071 10.2929L9 7.58579V3H7Z"
+                                        fill="#FFF"></path>
+                                </g>
+                            </svg>
+                            Mon - Fri / 08:00 - 18:00
+                        </div>
+                        <span>|</span>
+                        <div class="info-flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#FFF" width="800px" height="800px"
+                                viewBox="0 0 512 512" stroke="#FFF">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M512 464c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V200.724a48 48 0 0 1 18.387-37.776c24.913-19.529 45.501-35.365 164.2-121.511C199.412 29.17 232.797-.347 256 .003c23.198-.354 56.596 29.172 73.413 41.433 118.687 86.137 139.303 101.995 164.2 121.512A48 48 0 0 1 512 200.724V464zm-65.666-196.605c-2.563-3.728-7.7-4.595-11.339-1.907-22.845 16.873-55.462 40.705-105.582 77.079-16.825 12.266-50.21 41.781-73.413 41.43-23.211.344-56.559-29.143-73.413-41.43-50.114-36.37-82.734-60.204-105.582-77.079-3.639-2.688-8.776-1.821-11.339 1.907l-9.072 13.196a7.998 7.998 0 0 0 1.839 10.967c22.887 16.899 55.454 40.69 105.303 76.868 20.274 14.781 56.524 47.813 92.264 47.573 35.724.242 71.961-32.771 92.263-47.573 49.85-36.179 82.418-59.97 105.303-76.868a7.998 7.998 0 0 0 1.839-10.967l-9.071-13.196z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <a href="#">admin@logiscotheme.co </a>
+                        </div>
+                        <span>|</span>
+                        <div class="info-flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24"
+                                fill="none">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M2.00589 4.54166C1.905 3.11236 3.11531 2 4.54522 2H7.60606C8.34006 2 9.00207 2.44226 9.28438 3.1212L10.5643 6.19946C10.8761 6.94932 10.6548 7.81544 10.0218 8.32292L9.22394 8.96254C8.86788 9.24798 8.74683 9.74018 8.95794 10.1448C10.0429 12.2241 11.6464 13.9888 13.5964 15.2667C14.008 15.5364 14.5517 15.4291 14.8588 15.0445L15.6902 14.003C16.1966 13.3687 17.0609 13.147 17.8092 13.4594L20.8811 14.742C21.5587 15.0249 22 15.6883 22 16.4238V19.5C22 20.9329 20.8489 22.0955 19.4226 21.9941C10.3021 21.3452 2.65247 13.7017 2.00589 4.54166Z"
+                                        fill="#FFF"></path>
+                                </g>
+                            </svg>
+                            +1-2354-334-77
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="topbar-icon-btn-flex">
+                <div class="topbar-icon">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="800px" height="800px"
+                            viewBox="0 0 24 24">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M12 2.03998C6.5 2.03998 2 6.52998 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.84998C10.44 7.33998 11.93 5.95998 14.22 5.95998C15.31 5.95998 16.45 6.14998 16.45 6.14998V8.61998H15.19C13.95 8.61998 13.56 9.38998 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5878 18.0622 20.3855 19.6099 18.57C21.1576 16.7546 22.0054 14.4456 22 12.06C22 6.52998 17.5 2.03998 12 2.03998Z">
+                                </path>
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            fill="#ffffff" height="800px" width="800px" version="1.1" id="Layer_1"
+                            viewBox="-143 145 512 512" xml:space="preserve">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M329,145h-432c-22.1,0-40,17.9-40,40v432c0,22.1,17.9,40,40,40h432c22.1,0,40-17.9,40-40V185C369,162.9,351.1,145,329,145z M41.4,508.1H-8.5V348.4h49.9V508.1z M15.1,328.4h-0.4c-18.1,0-29.8-12.2-29.8-27.7c0-15.8,12.1-27.7,30.5-27.7 c18.4,0,29.7,11.9,30.1,27.7C45.6,316.1,33.9,328.4,15.1,328.4z M241,508.1h-56.6v-82.6c0-21.6-8.8-36.4-28.3-36.4 c-14.9,0-23.2,10-27,19.6c-1.4,3.4-1.2,8.2-1.2,13.1v86.3H71.8c0,0,0.7-146.4,0-159.7h56.1v25.1c3.3-11,21.2-26.6,49.8-26.6 c35.5,0,63.3,23,63.3,72.4V508.1z">
+                                </path>
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                            <path fill="#ffffff"
+                                d="M453.2 112L523.8 112L369.6 288.2L551 528L409 528L297.7 382.6L170.5 528L99.8 528L264.7 339.5L90.8 112L236.4 112L336.9 244.9L453.2 112zM428.4 485.8L467.5 485.8L215.1 152L173.1 152L428.4 485.8z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24"
+                            fill="none">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                                    fill="#FFF"></path>
+                                <path
+                                    d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                                    fill="#FFF"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                                    fill="#FFF"></path>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="topbar-btn">
+                    <a href="#">Get A Quote</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="header-flex">
+            <div class="header-logo">
+                <a href="#">
+                    <img src="./images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="header-menu">
+                <ul class="main-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pages</a>
+                        <ul class="sab-menu">
+                            <li><a href="#">About Us 1</a></li>
+                            <li><a href="#">About Us 2</a></li>
+                            <li><a href="#">About Us 3</a></li>
+                            <li><a href="#">Contact</a>
+                                <ul class="mega-menu">
+                                    <li><a href="#">Contact 1</a></li>
+                                    <li><a href="#">Contact 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">About Us 4</a></li>
+                            <li><a href="#">About Us 5</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Industry</a></li>
+                    <li><a href="#">Case Study</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Features</a></li>
+                </ul>
+            </div>
+            <div class="header-menu-icon">
+                <a href="#" class="header-menu-search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                        <path fill="#ffffff"
+                            d="M480 272C480 317.9 465.1 360.3 440 394.7L566.6 521.4C579.1 533.9 579.1 554.2 566.6 566.7C554.1 579.2 533.8 579.2 521.3 566.7L394.7 440C360.3 465.1 317.9 480 272 480C157.1 480 64 386.9 64 272C64 157.1 157.1 64 272 64C386.9 64 480 157.1 480 272zM272 416C351.5 416 416 351.5 416 272C416 192.5 351.5 128 272 128C192.5 128 128 192.5 128 272C128 351.5 192.5 416 272 416z">
+                        </path>
+                    </svg>
+                </a>
+                <a href="#" class="header-menu-cart">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                        <path fill="#ffffff"
+                            d="M24 48C10.7 48 0 58.7 0 72C0 85.3 10.7 96 24 96L69.3 96C73.2 96 76.5 98.8 77.2 102.6L129.3 388.9C135.5 423.1 165.3 448 200.1 448L456 448C469.3 448 480 437.3 480 424C480 410.7 469.3 400 456 400L200.1 400C188.5 400 178.6 391.7 176.5 380.3L171.4 352L475 352C505.8 352 532.2 330.1 537.9 299.8L568.9 133.9C572.6 114.2 557.5 96 537.4 96L124.7 96L124.3 94C119.5 67.4 96.3 48 69.2 48L24 48zM208 576C234.5 576 256 554.5 256 528C256 501.5 234.5 480 208 480C181.5 480 160 501.5 160 528C160 554.5 181.5 576 208 576zM432 576C458.5 576 480 554.5 480 528C480 501.5 458.5 480 432 480C405.5 480 384 501.5 384 528C384 554.5 405.5 576 432 576z">
+                        </path>
+                    </svg>
+                </a>
+
+                <div class="show-toggle"><svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px"
+                        viewBox="0 0 1024 1024" class="icon" version="1.1" fill="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M64 192h896v76.8H64V192z m0 281.6h896v76.8H64V473.6z m0 281.6h896V832H64v-76.8z"
+                                fill="#FFF"></path>
+                        </g>
+                    </svg></div>
+                <div class="close-toggle"><svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px"
+                        viewBox="0 0 1024 1024" fill="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path fill="#FFF"
+                                d="M195.2 195.2a64 64 0 0 1 90.496 0L512 421.504 738.304 195.2a64 64 0 0 1 90.496 90.496L602.496 512 828.8 738.304a64 64 0 0 1-90.496 90.496L512 602.496 285.696 828.8a64 64 0 0 1-90.496-90.496L421.504 512 195.2 285.696a64 64 0 0 1 0-90.496z">
+                            </path>
+                        </g>
+                    </svg></div>
+            </div>
+        </div>
+        <div class="header-popup">
+            <div class="search-popup">
+                <input type="text" placeholder="Search..." value="">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <path fill="#ffffff"
+                        d="M480 272C480 317.9 465.1 360.3 440 394.7L566.6 521.4C579.1 533.9 579.1 554.2 566.6 566.7C554.1 579.2 533.8 579.2 521.3 566.7L394.7 440C360.3 465.1 317.9 480 272 480C157.1 480 64 386.9 64 272C64 157.1 157.1 64 272 64C386.9 64 480 157.1 480 272zM272 416C351.5 416 416 351.5 416 272C416 192.5 351.5 128 272 128C192.5 128 128 192.5 128 272C128 351.5 192.5 416 272 416z">
+                    </path>
+                </svg>
+                <div class="header-popup-close"><svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px"
+                        viewBox="0 0 1024 1024" fill="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path fill="#FFF"
+                                d="M195.2 195.2a64 64 0 0 1 90.496 0L512 421.504 738.304 195.2a64 64 0 0 1 90.496 90.496L602.496 512 828.8 738.304a64 64 0 0 1-90.496 90.496L512 602.496 285.696 828.8a64 64 0 0 1-90.496-90.496L421.504 512 195.2 285.696a64 64 0 0 1 0-90.496z">
+                            </path>
+                        </g>
+                    </svg></div>
+            </div>
+            <div class="cart-popup">
+                <div class="cart-popup-details">
+                    <div class="cart-popup-title">You have <span>0 items</span> in your cart</div>
+                    <a href="#">Go To Shopping</a>
+                </div>
+                <div class="header-popup-close"><svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px"
+                        viewBox="0 0 1024 1024" fill="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path fill="#FFF"
+                                d="M195.2 195.2a64 64 0 0 1 90.496 0L512 421.504 738.304 195.2a64 64 0 0 1 90.496 90.496L602.496 512 828.8 738.304a64 64 0 0 1-90.496 90.496L512 602.496 285.696 828.8a64 64 0 0 1-90.496-90.496L421.504 512 195.2 285.696a64 64 0 0 1 0-90.496z">
+                            </path>
+                        </g>
+                    </svg></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-main"
+            style="background-image: url(./images/slider-1-bg.jpg);">
+            <div class="container">
+                <div class="hero-flex">
+                    <div class="hero-left">
+                        <h3>We Provide One Stop Logistic &amp; Warehousing Services .</h3>
+                        <p>Guaranteed by more than a hundred awards</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div class="hero-right">
+                        <div class="hero-right-input">
+                            <div class="input-details">
+                                <h3>Enquire Now</h3>
+                                <p>We will get back to you within 24 hours.</p>
+                            </div>
+                            <div class="hero-input-main">
+                                <input placeholder="Full Name*" value="" type="text">
+                                <input placeholder="Email*" value="" type="email">
+                                <input placeholder="Phone*" value="" type="text">
+                                <textarea class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
+                                    placeholder="Message*"></textarea>
+                                <input class="hero-input-btn" type="submit" value="Submit Now">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service-sec">
+            <div class="container">
+                <div class="service-top">
+                    <div class="service-top-img">
+                        <img src="./images/hp-1-map-1.jpg" alt="">
+                    </div>
+                    <div class="">
+                        <div class="top-title">We Provide Service Across The Globe</div>
+                        <div class="top-subtitle">We offer a Global Logistics Network with our worldwide offices and
+                            also high quality distribution facilities which are staffed by dedicated teams of the top of
+                            experts. We have more than 30 years of experiences in this field.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-bottom-img"
+                style="background-image: url(./images/hp-map-bg-2.jpg);">
+                <div class="container">
+                    <div class="service-bottom">
+                        <div class="service-bottom-box aos-init aos-animate" data-aos="fade-up" data-aos-duration="700">
+                            <div class="bottom-box-img">
+                                <img src="./images/icon-clock-n.png"
+                                    alt="">
+                            </div>
+                            <div class="bottom-box-title">Fast Service</div>
+                            <div class="bottom-box-subtitle">A wonderful serenity has taken possession of my entire
+                                soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
+                            <a href="#" class="bottom-box-link">
+                                <div class="">Learn More</div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24"
+                                    fill="none" transform="rotate(180)" stroke="">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path d="M4 12H20M4 12L8 8M4 12L8 16" stroke="#143369" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="service-bottom-box aos-init aos-animate" data-aos="fade-up"
+                            data-aos-duration="1100">
+                            <div class="bottom-box-img">
+                                <img src="./images/icon-box-n.png"
+                                    alt="">
+                            </div>
+                            <div class="bottom-box-title">Safe Delivery</div>
+                            <div class="bottom-box-subtitle">A wonderful serenity has taken possession of my entire
+                                soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
+                            <a href="#" class="bottom-box-link">
+                                <div class="">Learn More</div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24"
+                                    fill="none" transform="rotate(180)" stroke="">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path d="M4 12H20M4 12L8 8M4 12L8 16" stroke="#143369" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="service-bottom-box aos-init aos-animate" data-aos="fade-up"
+                            data-aos-duration="1400">
+                            <div class="bottom-box-img">
+                                <img src="./images/icon-support-n.png"
+                                    alt="">
+                            </div>
+                            <div class="bottom-box-title">24/7 Support</div>
+                            <div class="bottom-box-subtitle">A wonderful serenity has taken possession of my entire
+                                soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
+                            <a href="#" class="bottom-box-link">
+                                <div class="">Learn More</div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24"
+                                    fill="none" transform="rotate(180)" stroke="">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path d="M4 12H20M4 12L8 8M4 12L8 16" stroke="#143369" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tracking-service"
+            style="background-image: url(./images/bg-tracking.jpg);">
+            <div class="tracking-service-flex">
+                <div class="tracking-service-left"></div>
+                <div class="tracking-service-right">
+                    <div class="aos-init aos-animate" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="tracking-icon-title">
+                            <div class="tracking-icon">
+                                <img src="./images/icon-box.png"
+                                    alt="">
+                            </div>
+                            <div class="tracking-title">Quick Tracking Service</div>
+                        </div>
+                        <div class="tracking-subtitle">This is just an example of the custom HTML form. You may need to
+                            link it to your third party app or use third party html snippet . This theme doesn’t offer
+                            the tracking system.</div>
+                        <div class="tracking-minititle">*Please enter (House) Air Waybill No., B/L No., or Container No.
+                            For OPTIONAL SEARCH using your Customer Account No.</div>
+                        <div class="tracking-input">
+                            <input class="tracking-input-text" type="text" placeholder="CL-XXX-XXX-XX"
+                                style="background: #fff;" data-gtm-form-interact-field-id="0">
+                            <input class="tracking-input-btn" type="submit" value="Track Now!">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="tabs">
+                <ul id="tabs-nav">
+                    <li class="active">
+                        <a href="#tab1">
+                            <div class="tabs-title"
+                                style="background-image: url(./images/tab-1-n.jpg);">
+                                <img src="./images/tab-1-icon-n-1.png"
+                                    alt="">
+                                <div class="tabs-text-title">Land Transport</div>
+                                <div class="tabs-text-subtitle">1000+ Trucks in 120 Cities</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#tab2">
+                            <div class="tabs-title"
+                                style="background-image: url(./images/tab-2-n.jpg);">
+                                <img src="./images/tab-2-icon-n-1.png"
+                                    alt="">
+                                <div class="tabs-text-title">Air Freight</div>
+                                <div class="tabs-text-subtitle">1000+ Trucks in 120 Cities</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#tab3">
+                            <div class="tabs-title"
+                                style="background-image: url(./images/tab-3-n.jpg);">
+                                <img src="./images/tab-3-icon-n-1.png"
+                                    alt="">
+                                <div class="tabs-text-title">Ocean Freight</div>
+                                <div class="tabs-text-subtitle">6000+ Containers in 20 Ports</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#tab4">
+                            <div class="tabs-title"
+                                style="background-image: url(./images/tab-4-n.jpg);">
+                                <img src="./images/tab-4-icon-n-1.png"
+                                    alt="">
+                                <div class="tabs-text-title">Smart Warehouses</div>
+                                <div class="tabs-text-subtitle">Cover 1,000,000 sqm.</div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="container">
+                    <div id="tabs-content">
+                        <div id="tab1" class="tab-content" style="">
+                            <div class="tab-content-left">
+                                <div class="tab-content-left-title">Land Transport</div>
+                                <div class="tab-content-left-subtitle">1000+ Trucks in 120 Cities</div>
+                            </div>
+                            <div class="tab-content-right">
+                                <div class="tab-content-right-title">Logisco Ground’s flexible model, using only quality
+                                    carriers, means you benefit from improved service levels, greater flexibility and
+                                    time-definite deliveries. Our expertise in transport management and planning allows
+                                    us to design.</div>
+                                <div class="tab-content-right-subtitle">Through our global network of control towers and
+                                    state-of-the-art technology, we are able to monitor and dynamically react to
+                                    situations such as adverse weather, additional pick ups or drop offs, or heavy
+                                    traffic, meaning that your goods are always traveling the most efficient route.Our
+                                    non-asset based Road network provides you with flexibility, improved service
+                                    levels..</div>
+                                <div class="tab-content-right-flex">
+                                    <div class="tab-left-btn">
+                                        <a href="#">More Detail</a>
+                                    </div>
+                                    <div class="tab-right-btn">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                                <path
+                                                    d="M192 112L304 112L304 200C304 239.8 336.2 272 376 272L464 272L464 512C464 520.8 456.8 528 448 528L192 528C183.2 528 176 520.8 176 512L176 128C176 119.2 183.2 112 192 112zM352 131.9L444.1 224L376 224C362.7 224 352 213.3 352 200L352 131.9zM192 64C156.7 64 128 92.7 128 128L128 512C128 547.3 156.7 576 192 576L448 576C483.3 576 512 547.3 512 512L512 250.5C512 233.5 505.3 217.2 493.3 205.2L370.7 82.7C358.7 70.7 342.5 64 325.5 64L192 64zM248 320C234.7 320 224 330.7 224 344C224 357.3 234.7 368 248 368L392 368C405.3 368 416 357.3 416 344C416 330.7 405.3 320 392 320L248 320zM248 416C234.7 416 224 426.7 224 440C224 453.3 234.7 464 248 464L392 464C405.3 464 416 453.3 416 440C416 426.7 405.3 416 392 416L248 416z">
+                                                </path>
+                                            </svg>
+                                            Download PDF
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab2" class="tab-content" style="display: none;">
+                            <div class="tab-content-left">
+                                <div class="tab-content-left-title">Air Freight</div>
+                                <div class="tab-content-left-subtitle">120+ Aircrafts in 30 Cities</div>
+                            </div>
+                            <div class="tab-content-right">
+                                <div class="tab-content-right-title">Airfreight is fast-moving, challenging and
+                                    constantly changing – it’s the nature of the business. Around the globe capacity and
+                                    demand can change in the blink of an eye so it’s essential to have a partner.</div>
+                                <div class="tab-content-right-subtitle">Logisco is one of the largest air freight
+                                    transportation providers in the world, offering a full and comprehensive package of
+                                    premium, value-added services and specialist products all of which are specifically
+                                    tailor-made for you. Across our worldwide network you can choose the service which
+                                    best suits your needs. From New York to Shanghai and everywhere in between.</div>
+                                <div class="tab-content-right-flex">
+                                    <div class="tab-left-btn">
+                                        <a href="#">More Detail</a>
+                                    </div>
+                                    <div class="tab-right-btn">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                                <path
+                                                    d="M192 112L304 112L304 200C304 239.8 336.2 272 376 272L464 272L464 512C464 520.8 456.8 528 448 528L192 528C183.2 528 176 520.8 176 512L176 128C176 119.2 183.2 112 192 112zM352 131.9L444.1 224L376 224C362.7 224 352 213.3 352 200L352 131.9zM192 64C156.7 64 128 92.7 128 128L128 512C128 547.3 156.7 576 192 576L448 576C483.3 576 512 547.3 512 512L512 250.5C512 233.5 505.3 217.2 493.3 205.2L370.7 82.7C358.7 70.7 342.5 64 325.5 64L192 64zM248 320C234.7 320 224 330.7 224 344C224 357.3 234.7 368 248 368L392 368C405.3 368 416 357.3 416 344C416 330.7 405.3 320 392 320L248 320zM248 416C234.7 416 224 426.7 224 440C224 453.3 234.7 464 248 464L392 464C405.3 464 416 453.3 416 440C416 426.7 405.3 416 392 416L248 416z">
+                                                </path>
+                                            </svg>
+                                            Download PDF
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab3" class="tab-content" style="display: none;">
+                            <div class="tab-content-left">
+                                <div class="tab-content-left-title">Ocean Freight</div>
+                                <div class="tab-content-left-subtitle">6000+ Containers in 20 Ports</div>
+                            </div>
+                            <div class="tab-content-right">
+                                <div class="tab-content-right-title">Our extensive and long-term relations with shipping
+                                    lines mean we can provide you with access to a global carrier portfolio, covering
+                                    major ports, with the best transit times, fully flexible scheduling.</div>
+                                <div class="tab-content-right-subtitle">Logisco can offer a flexible range of Ocean
+                                    Freight services for both Less-Than-Container Load (LCL) and Full-Container Load
+                                    (FCL) shipments. These are backed by comprehensive Ocean Freight Management Services
+                                    as well as Break-bulk, Project Forwarding, Partial and Full Charter Services.
+                                    Logisco is one of the largest air freight transportation providers in the world.
+                                </div>
+                                <div class="tab-content-right-flex">
+                                    <div class="tab-left-btn">
+                                        <a href="#">More Detail</a>
+                                    </div>
+                                    <div class="tab-right-btn">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                                <path
+                                                    d="M192 112L304 112L304 200C304 239.8 336.2 272 376 272L464 272L464 512C464 520.8 456.8 528 448 528L192 528C183.2 528 176 520.8 176 512L176 128C176 119.2 183.2 112 192 112zM352 131.9L444.1 224L376 224C362.7 224 352 213.3 352 200L352 131.9zM192 64C156.7 64 128 92.7 128 128L128 512C128 547.3 156.7 576 192 576L448 576C483.3 576 512 547.3 512 512L512 250.5C512 233.5 505.3 217.2 493.3 205.2L370.7 82.7C358.7 70.7 342.5 64 325.5 64L192 64zM248 320C234.7 320 224 330.7 224 344C224 357.3 234.7 368 248 368L392 368C405.3 368 416 357.3 416 344C416 330.7 405.3 320 392 320L248 320zM248 416C234.7 416 224 426.7 224 440C224 453.3 234.7 464 248 464L392 464C405.3 464 416 453.3 416 440C416 426.7 405.3 416 392 416L248 416z">
+                                                </path>
+                                            </svg>
+                                            Download PDF
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab4" class="tab-content" style="display: none;">
+                            <div class="tab-content-left">
+                                <div class="tab-content-left-title">Smart Warehouses</div>
+                                <div class="tab-content-left-subtitle">Cover 1,000,000 sqm.</div>
+                            </div>
+                            <div class="tab-content-right">
+                                <div class="tab-content-right-title">Logisco Ground’s flexible model, using only quality
+                                    carriers, means you benefit from improved service levels, greater flexibility and
+                                    time-definite deliveries. Our expertise in transport management and planning.</div>
+                                <div class="tab-content-right-subtitle">Through our global network of control towers and
+                                    state-of-the-art technology, we are able to monitor and dynamically react to
+                                    situations such as adverse weather, additional pick ups or drop offs, or heavy
+                                    traffic, meaning that your goods are always traveling the most efficient route. Our
+                                    non-asset based Road network provides you with flexibility.</div>
+                                <div class="tab-content-right-flex">
+                                    <div class="tab-left-btn">
+                                        <a href="#">More Detail</a>
+                                    </div>
+                                    <div class="tab-right-btn">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                                <path
+                                                    d="M192 112L304 112L304 200C304 239.8 336.2 272 376 272L464 272L464 512C464 520.8 456.8 528 448 528L192 528C183.2 528 176 520.8 176 512L176 128C176 119.2 183.2 112 192 112zM352 131.9L444.1 224L376 224C362.7 224 352 213.3 352 200L352 131.9zM192 64C156.7 64 128 92.7 128 128L128 512C128 547.3 156.7 576 192 576L448 576C483.3 576 512 547.3 512 512L512 250.5C512 233.5 505.3 217.2 493.3 205.2L370.7 82.7C358.7 70.7 342.5 64 325.5 64L192 64zM248 320C234.7 320 224 330.7 224 344C224 357.3 234.7 368 248 368L392 368C405.3 368 416 357.3 416 344C416 330.7 405.3 320 392 320L248 320zM248 416C234.7 416 224 426.7 224 440C224 453.3 234.7 464 248 464L392 464C405.3 464 416 453.3 416 440C416 426.7 405.3 416 392 416L248 416z">
+                                                </path>
+                                            </svg>
+                                            Download PDF
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="why-choose-sec">
+            <div class="why-choose-flex">
+                <div class="why-choose-left">
+                    <div class="why-choose-left-img">
+                        <div class="why-choose-tab-bg"
+                            style="background-image: url(./images/tab-about-3-1.jpg);">
+                        </div>
+                        <div class="why-choose-tab-bg"
+                            style="background-image: url(./images/tab-about-2-1.jpg); display: none;">
+                        </div>
+                        <div class="why-choose-tab-bg"
+                            style="background-image: url(./images/tab-about-4-1.jpg); display: none;">
+                        </div>
+                        <div class="why-choose-tab-bg"
+                            style="background-image: url(./images/tab-about-5-1.jpg); display: none;">
+                        </div>
+                    </div>
+                    <div class="why-choose-left-title">
+                        <div class="why-choose-sub-title">Why choose us</div>
+                        <div class="why-choose-title">What Makes Us Different</div>
+                        <div class="why-choose-title-divider"></div>
+                    </div>
+                    <ul class="why-choose-tabs">
+                        <li class="why-choose-tab-title active"><a href="#"><span>&gt; </span>We are passionate about
+                                customers</a></li>
+                        <li class="why-choose-tab-title"><a href="#"><span>&gt; </span>We are energetic and eager</a>
+                        </li>
+                        <li class="why-choose-tab-title"><a href="#"><span>&gt; </span>We are performance driven</a>
+                        </li>
+                        <li class="why-choose-tab-title"><a href="#"><span>&gt; </span>We are successful </a></li>
+                    </ul>
+                </div>
+                <div class="why-choose-right">
+                    <div class="why-choose-details" style="">
+                        <div class="wc-details-icon"><img
+                                src="./images/tab-1-verticle-icon.png"
+                                alt=""></div>
+                        <div class="wc-details-subtitle">Why customers love us</div>
+                        <div class="wc-details-title">We are passionate about customers</div>
+                        <div class="wc-details-info1">Logistics, a leading global asset-light supply chain management
+                            company, designs and implements industry leading solutions for large and medium-size
+                            national and multinational companies. Approximately 73,000 employees in more than 120
+                            countries are dedicated to delivering effective and robust supply-chain solutions across a
+                            variety of sectors where we apply our operational expertise to provide best-in-class
+                            services.</div>
+                        <div class="wc-details-info2">Airfreight is fast-moving, challenging and constantly changing –
+                            it’s the nature of the business. Around the globe capacity and demand can change in the
+                            blink of an eye so it’s essential to have a partner who provides stability.</div>
+                        <div class="wc-details-link"><a href="#">See Case Studies</a></div>
+                    </div>
+                    <div class="why-choose-details" style="display: none;">
+                        <div class="wc-details-icon"><img
+                                src="./images/icon-clock-n.png"
+                                alt=""></div>
+                        <div class="wc-details-subtitle">Why customers love us</div>
+                        <div class="wc-details-title">We are energetic and eager</div>
+                        <div class="wc-details-info1">Logistics, a leading global asset-light supply chain management
+                            company, designs and implements industry leading solutions for large and medium-size
+                            national and multinational companies. Approximately 73,000 employees in more than 120
+                            countries are dedicated to delivering effective and robust supply-chain solutions across a
+                            variety of sectors where we apply our operational expertise to provide best-in-class
+                            services.</div>
+                        <div class="wc-details-info2">Airfreight is fast-moving, challenging and constantly changing –
+                            it’s the nature of the business. Around the globe capacity and demand can change in the
+                            blink of an eye so it’s essential to have a partner who provides stability.</div>
+                        <div class="wc-details-link"><a href="#">See Case Studies</a></div>
+                    </div>
+                    <div class="why-choose-details" style="display: none;">
+                        <div class="wc-details-icon"><img
+                                src="./images/icon-box-n.png"
+                                alt=""></div>
+                        <div class="wc-details-subtitle">Why customers love us</div>
+                        <div class="wc-details-title">We are performance driven</div>
+                        <div class="wc-details-info1">Logistics, a leading global asset-light supply chain management
+                            company, designs and implements industry leading solutions for large and medium-size
+                            national and multinational companies. Approximately 73,000 employees in more than 120
+                            countries are dedicated to delivering effective and robust supply-chain solutions across a
+                            variety of sectors where we apply our operational expertise to provide best-in-class
+                            services.</div>
+                        <div class="wc-details-info2">Airfreight is fast-moving, challenging and constantly changing –
+                            it’s the nature of the business. Around the globe capacity and demand can change in the
+                            blink of an eye so it’s essential to have a partner who provides stability.</div>
+                        <div class="wc-details-link"><a href="#">See Case Studies</a></div>
+                    </div>
+                    <div class="why-choose-details" style="display: none;">
+                        <div class="wc-details-icon"><img
+                                src="./images/icon-support-n.png"
+                                alt=""></div>
+                        <div class="wc-details-subtitle">Why customers love us</div>
+                        <div class="wc-details-title">We are performance driven</div>
+                        <div class="wc-details-info1">Logistics, a leading global asset-light supply chain management
+                            company, designs and implements industry leading solutions for large and medium-size
+                            national and multinational companies. Approximately 73,000 employees in more than 120
+                            countries are dedicated to delivering effective and robust supply-chain solutions across a
+                            variety of sectors where we apply our operational expertise to provide best-in-class
+                            services.</div>
+                        <div class="wc-details-info2">Airfreight is fast-moving, challenging and constantly changing –
+                            it’s the nature of the business. Around the globe capacity and demand can change in the
+                            blink of an eye so it’s essential to have a partner who provides stability.</div>
+                        <div class="wc-details-link"><a href="#">See Case Studies</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="video-main"
+            style="background-image: url(./images/hp-video-bg.jpg);">
+            <div class="container">
+                <div class="video-details">
+                    <a href="#">
+                        <img src="./images/play1-icon.png" alt="">
+                    </a>
+                    <div class="video-title">See Video Introduction</div>
+                    <div class="video-subtitle">Take a tour and see how the greatest logistic company in USA works</div>
+                    <div class="video-text">A wonderful serenity has taken possession of my entire soul, like these
+                        sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of
+                        existence in this spot, which was created for the bliss of souls like mine. I am so happy, my
+                        dear friend, so absorbed in the exquisite. like these sweet mornings of spring</div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="crad-main">
+                    <div class="flip-card" tabindex="0">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front"
+                                style="background-image: url(./images/flip-1.jpg);">
+                                <div class="card-title">Open Innovation</div>
+                                <a href="#">Learn More</a>
+                            </div>
+                            <div class="flip-card-back"
+                                style="background-image: url(./images/flip-1-2.jpg);">
+                                <div class="card-title">Open Innovation</div>
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" tabindex="0">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front"
+                                style="background-image: url(./images/flip-2.jpg);">
+                                <div class="card-title">Open Innovation</div>
+                                <a href="#">Learn More</a>
+                            </div>
+                            <div class="flip-card-back"
+                                style="background-image: url(./images/flip-2-2.jpg);">
+                                <div class="card-title">Open Innovation</div>
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" tabindex="0">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front"
+                                style="background-image: url(./images/flip-3.jpg);">
+                                <div class="card-title">Open Innovation</div>
+                                <a href="#">Learn More</a>
+                            </div>
+                            <div class="flip-card-back"
+                                style="background-image: url(./images/flip-3-2.jpg);">
+                                <div class="card-title">Open Innovation</div>
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="crad-description">Logisco sparks innovation that moves our customers and industry forward –
+                    by actively engaging in innovative networks such as the International Data Space Association, IDG
+                </div>
+                <div class="case-study-slider">
+                    <div class="case-study-slider-title">
+                        <div class="case-flex-logo">
+                            <div class="case-slider-logo"><img
+                                    src="./images/hp-port-title-icon.png"
+                                    alt=""></div>
+                            <div class="case-slider-title">Case Study</div>
+                        </div>
+                        <div class="case-flex-link">
+                            <span></span>
+                            <a href="#" class="case-slider-">View All</a>
+                        </div>
+                    </div>
+                    <div class="case-main-slider slick-initialized slick-slider slick-dotted"><span
+                            class="prev-case-arrow slick-arrow" style=""><svg xmlns="http://www.w3.org/2000/svg"
+                                width="256px" height="256px" viewBox="0 0 24.00 24.00" fill="none"
+                                transform="rotate(180)">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path d="M4 12H20M20 12L16 8M20 12L16 16" stroke="#E53C35" stroke-width="2.4"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                </g>
+                            </svg></span>
+                        <div class="slick-list draggable">
+                            <div class="slick-track"
+                                style="opacity: 1; width: 7038px; transform: translate3d(-1242px, 0px, 0px);">
+                                <div class="case-slider-box slick-slide slick-cloned" data-slick-index="-3" id=""
+                                    aria-hidden="true" style="width: 374px;" tabindex="-1">
+                                    <a href="#" class="case-slider-box-img" tabindex="-1">
+                                        <img src="./images/shutterstock_457113385.jpg"
+                                            alt="">
+                                    </a>
+                                    <div class="case-slider-box-description">
+                                        <div class="case-slider-box-description-title">Ocean Saving To Clients</div>
+                                        <div class="case-slider-box-description-subtitle">Ocean / Ships</div>
+                                    </div>
+                                </div>
+                                <div class="case-slider-box slick-slide slick-cloned" data-slick-index="-2" id=""
+                                    aria-hidden="true" style="width: 374px;" tabindex="-1">
+                                    <a href="#" class="case-slider-box-img" tabindex="-1">
+                                        <img src="./images/rawpixel-684806-unsplash.jpg"
+                                            alt="">
+                                    </a>
+                                    <div class="case-slider-box-description">
+                                        <div class="case-slider-box-description-title">Project Cost Estimation</div>
+                                        <div class="case-slider-box-description-subtitle">Budget / Cost</div>
+                                    </div>
+                                </div>
+                                <div class="case-slider-box slick-slide slick-cloned" data-slick-index="-1" id=""
+                                    aria-hidden="true" style="width: 374px;" tabindex="-1">
+                                    <a href="#" class="case-slider-box-img" tabindex="-1">
+                                        <img src="./images/william-daigneault-1153447-unsplash.jpg"
+                                            alt="">
+                                    </a>
+                                    <div class="case-slider-box-description">
+                                        <div class="case-slider-box-description-title">After Service Parts</div>
+                                        <div class="case-slider-box-description-subtitle">Security / System</div>
+                                    </div>
+                                </div>
+                                <div class="case-slider-box slick-slide slick-current slick-active" data-slick-index="0"
+                                    aria-hidden="false" style="width: 374px;" tabindex="0" role="tabpanel"
+                                    id="slick-slide00" aria-describedby="slick-slide-control00">
+                                    <a href="#" class="case-slider-box-img" tabindex="0">
+                                        <img src="./images/ryan-searle-377260-unsplash.jpg"
+                                            alt="">
+                                    </a>
+                                    <div class="case-slider-box-description">
+                                        <div class="case-slider-box-description-title">Region Distribution Center</div>
+                                        <div class="case-slider-box-description-subtitle">Logistic / Rocket</div>
+                                    </div>
+                                </div>
+                                <div class="case-slider-box slick-slide slick-active" data-slick-index="1"
+                                    aria-hidden="false" style="width: 374px;" tabindex="0" role="tabpanel"
+                                    id="slick-slide01" aria-describedby="slick-slide-control01">
+                                    <a href="#" class="case-slider-box-img" tabindex="0">
+                                        <img src="./images/shutterstock_350092247.jpg"
+                                            alt="">
+                                    </a>
+                                    <div class="case-slider-box-description">
+                                        <div class="case-slider-box-description-title">Temperature Controlled</div>
+                                        <div class="case-slider-box-description-subtitle">Temperature / Transport</div>
+                                    </div>
+                                </div>
+                                <div class="case-slider-box slick-slide slick-active" data-slick-index="2"
+                                    aria-hidden="false" style="width: 374px;" tabindex="0" role="tabpanel"
+                                    id="slick-slide02" aria-describedby="slick-slide-control02">
+                                    <a href="#" class="case-slider-box-img" tabindex="0">
+                                        <img src="./images/shutterstock_417862237.jpg"
+                                            alt="">
+                                    </a>
+                                    <div class="case-slider-box-description">
+                                        <div class="case-slider-box-description-title">FBA Delivery Service</div>
+                                        <div class="case-slider-box-description-subtitle">FBA / Logistic</div>
+                                    </div>
+                                </div>
+                                <div class="case-slider-box slick-slide" data-slick-index="3" aria-hidden="true"
+                                    style="width: 374px;" tabindex="-1" role="tabpanel" id="slick-slide03"
+                                    aria-describedby="slick-slide-control03">
+                                    <a href="#" class="case-slider-box-img" tabindex="-1">
+                                        <img src="./images/spacex-530583-unsplash.jpg"
+                                            alt="">
+                                    </a>
+                                    <div class="case-slider-box-description">
+                                        <div class="case-slider-box-description-title">Transport of SpaceX Rocket</div>
+                                        <div class="case-slider-box-description-subtitle">Logistic / Rocket</div>
+                                    </div>
+                                </div>
+                                <div class="case-slider-box slick-slide" data-slick-index="4" aria-hidden="true"
+                                    style="width: 374px;" tabindex="-1" role="tabpanel" id="slick-slide04"
+                                    aria-describedby="slick-slide-control04">
+                                    <a href="#" class="case-slider-box-img" tabindex="-1">
+                                        <img src="./images/shutterstock_457113385.jpg"
+                                            alt="">
+                                    </a>
+                                    <div class="case-slider-box-description">
+                                        <div class="case-slider-box-description-title">Ocean Saving To Clients</div>
+                                        <div class="case-slider-box-description-subtitle">Ocean / Ships</div>
+                                    </div>
+                                </div>
+                                <div class="case-slider-box slick-slide" data-slick-index="5" aria-hidden="true"
+                                    style="width: 374px;" tabindex="-1" role="tabpanel" id="slick-slide05"
+                                    aria-describedby="slick-slide-control05">
+                                    <a href="#" class="case-slider-box-img" tabindex="-1">
+                                        <img src="./images/rawpixel-684806-unsplash.jpg"
+                                            alt="">
+                                    </a>
+                                    <div class="case-slider-box-description">
+                                        <div class="case-slider-box-description-title">Project Cost Estimation</div>
+                                        <div class="case-slider-box-description-subtitle">Budget / Cost</div>
+                                    </div>
+                                </div>
+                                <div class="case-slider-box slick-slide" data-slick-index="6" aria-hidden="true"
+                                    style="width: 374px;" tabindex="-1" role="tabpanel" id="slick-slide06"
+                                    aria-describedby="slick-slide-control06">
+                                    <a href="#" class="case-slider-box-img" tabindex="-1">
+                                        <img src="./images/william-daigneault-1153447-unsplash.jpg"
+                                            alt="">
+                                    </a>
+                                    <div class="case-slider-box-description">
+                                        <div class="case-slider-box-description-title">After Service Parts</div>
+                                        <div class="case-slider-box-description-subtitle">Security / System</div>
+                                    </div>
+                                </div>
+                                <div class="case-slider-box slick-slide slick-cloned" data-slick-index="7" id=""
+                                    aria-hidden="true" style="width: 374px;" tabindex="-1">
+                                    <a href="#" class="case-slider-box-img" tabindex="-1">
+                                        <img src="./images/ryan-searle-377260-unsplash.jpg"
+                                            alt="">
+                                    </a>
+                                    <div class="case-slider-box-description">
+                                        <div class="case-slider-box-description-title">Region Distribution Center</div>
+                                        <div class="case-slider-box-description-subtitle">Logistic / Rocket</div>
+                                    </div>
+                                </div>
+                                <div class="case-slider-box slick-slide slick-cloned" data-slick-index="8" id=""
+                                    aria-hidden="true" style="width: 374px;" tabindex="-1">
+                                    <a href="#" class="case-slider-box-img" tabindex="-1">
+                                        <img src="./images/shutterstock_350092247.jpg"
+                                            alt="">
+                                    </a>
+                                    <div class="case-slider-box-description">
+                                        <div class="case-slider-box-description-title">Temperature Controlled</div>
+                                        <div class="case-slider-box-description-subtitle">Temperature / Transport</div>
+                                    </div>
+                                </div>
+                                <div class="case-slider-box slick-slide slick-cloned" data-slick-index="9" id=""
+                                    aria-hidden="true" style="width: 374px;" tabindex="-1">
+                                    <a href="#" class="case-slider-box-img" tabindex="-1">
+                                        <img src="./images/shutterstock_417862237.jpg"
+                                            alt="">
+                                    </a>
+                                    <div class="case-slider-box-description">
+                                        <div class="case-slider-box-description-title">FBA Delivery Service</div>
+                                        <div class="case-slider-box-description-subtitle">FBA / Logistic</div>
+                                    </div>
+                                </div>
+                                <div class="case-slider-box slick-slide slick-cloned" data-slick-index="10" id=""
+                                    aria-hidden="true" style="width: 374px;" tabindex="-1">
+                                    <a href="#" class="case-slider-box-img" tabindex="-1">
+                                        <img src="./images/spacex-530583-unsplash.jpg"
+                                            alt="">
+                                    </a>
+                                    <div class="case-slider-box-description">
+                                        <div class="case-slider-box-description-title">Transport of SpaceX Rocket</div>
+                                        <div class="case-slider-box-description-subtitle">Logistic / Rocket</div>
+                                    </div>
+                                </div>
+                                <div class="case-slider-box slick-slide slick-cloned" data-slick-index="11" id=""
+                                    aria-hidden="true" style="width: 374px;" tabindex="-1">
+                                    <a href="#" class="case-slider-box-img" tabindex="-1">
+                                        <img src="./images/shutterstock_457113385.jpg"
+                                            alt="">
+                                    </a>
+                                    <div class="case-slider-box-description">
+                                        <div class="case-slider-box-description-title">Ocean Saving To Clients</div>
+                                        <div class="case-slider-box-description-subtitle">Ocean / Ships</div>
+                                    </div>
+                                </div>
+                                <div class="case-slider-box slick-slide slick-cloned" data-slick-index="12" id=""
+                                    aria-hidden="true" style="width: 374px;" tabindex="-1">
+                                    <a href="#" class="case-slider-box-img" tabindex="-1">
+                                        <img src="./images/rawpixel-684806-unsplash.jpg"
+                                            alt="">
+                                    </a>
+                                    <div class="case-slider-box-description">
+                                        <div class="case-slider-box-description-title">Project Cost Estimation</div>
+                                        <div class="case-slider-box-description-subtitle">Budget / Cost</div>
+                                    </div>
+                                </div>
+                                <div class="case-slider-box slick-slide slick-cloned" data-slick-index="13" id=""
+                                    aria-hidden="true" style="width: 374px;" tabindex="-1">
+                                    <a href="#" class="case-slider-box-img" tabindex="-1">
+                                        <img src="./images/william-daigneault-1153447-unsplash.jpg"
+                                            alt="">
+                                    </a>
+                                    <div class="case-slider-box-description">
+                                        <div class="case-slider-box-description-title">After Service Parts</div>
+                                        <div class="case-slider-box-description-subtitle">Security / System</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <span class="next-case-arrow slick-arrow" style=""><svg xmlns="http://www.w3.org/2000/svg"
+                                width="256px" height="256px" viewBox="0 0 24.00 24.00" fill="none"
+                                transform="rotate(0)">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path d="M4 12H20M20 12L16 8M20 12L16 16" stroke="#E53C35" stroke-width="2.4"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                </g>
+                            </svg></span>
+                        <ul class="slick-dots" style="" role="tablist">
+                            <li class="slick-active" role="presentation"><button type="button" role="tab"
+                                    id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 3"
+                                    tabindex="0" aria-selected="true">1</button></li>
+                            <li role="presentation"><button type="button" role="tab" id="slick-slide-control01"
+                                    aria-controls="slick-slide01" aria-label="2 of 3" tabindex="-1">2</button></li>
+                            <li role="presentation"><button type="button" role="tab" id="slick-slide-control02"
+                                    aria-controls="slick-slide02" aria-label="3 of 3" tabindex="-1">3</button></li>
+                            <li role="presentation"><button type="button" role="tab" id="slick-slide-control03"
+                                    aria-controls="slick-slide03" aria-label="4 of 3" tabindex="-1">4</button></li>
+                            <li role="presentation"><button type="button" role="tab" id="slick-slide-control04"
+                                    aria-controls="slick-slide04" aria-label="5 of 3" tabindex="-1">5</button></li>
+                            <li role="presentation"><button type="button" role="tab" id="slick-slide-control05"
+                                    aria-controls="slick-slide05" aria-label="6 of 3" tabindex="-1">6</button></li>
+                            <li role="presentation"><button type="button" role="tab" id="slick-slide-control06"
+                                    aria-controls="slick-slide06" aria-label="7 of 3" tabindex="-1">7</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="more-about-sec">
+            <div class="container">
+                <div class="more-about-sec-info">
+                    <div class="more-about-top">
+                        <div class="about-main-img"
+                            style="background-image: url('./images/erik-odiin-568459-unsplash.jpg');">
+                        </div>
+                        <div class="about-main-txt">
+                            <div class="aos-init" data-aos="fade-left" data-aos-duration="1000">
+                                <div class="more-about-subtitle">Know us more</div>
+                                <div class="more-about-title">More About Us</div>
+                                <div class="more-about-info1">We design and implement industry leading solutions for
+                                    multinational companies. Approximately 73,000 employees.</div>
+                                <div class="more-about-info2">At Logisco, we know experience matters. That’s why
+                                    customers trust us — we have more than 80 years of experience in the logistics and
+                                    transportation industry. For your air charter services, this translates to
+                                    competence around the globe.</div>
+                                <div class="more-about-info-btn"><a href="#">More Detail</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="more-about-bottom">
+                        <div class="about-main-txt"
+                            style="background-image: url('./images/hp-half-bg-3.jpg');">
+                            <div class="aos-init" data-aos="fade-right" data-aos-duration="1000">
+                                <div class="more-about-subtitle">we are an advanced company</div>
+                                <div class="more-about-title">Using High Technology</div>
+                                <div class="about-description">
+                                    <div class="about-icon-flex">
+                                        <img src="./images/building-logis.png"
+                                            alt="">
+                                        <div class="about-description-text">
+                                            <div class="about-description-title">We Use AI In The Line</div>
+                                            <div class="about-description-subtitle">That’s why customers trust us — we
+                                                have more than 80 years of experience in the logistics and
+                                                transportation.</div>
+                                        </div>
+                                    </div>
+                                    <div class="about-icon-flex">
+                                        <img src="./images/home-logis.png"
+                                            alt="">
+                                        <div class="about-description-text">
+                                            <div class="about-description-title">Smart Warehouse</div>
+                                            <div class="about-description-subtitle">That’s why customers trust us — we
+                                                have more than 80 years of experience in the logistics and
+                                                transportation.</div>
+                                        </div>
+                                    </div>
+                                    <div class="about-icon-flex">
+                                        <img src="./images/home-logis-1.png"
+                                            alt="">
+                                        <div class="about-description-text">
+                                            <div class="about-description-title">100% Accuracy</div>
+                                            <div class="about-description-subtitle">That’s why customers trust us — we
+                                                have more than 80 years of experience in the logistics and
+                                                transportation.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-main-img"
+                            style="background-image: url('./images/hp-half-bg-2.jpg');">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="industry-solutions-sec">
+            <div class="container">
+                <div class="industry-title-info">
+                    <div class="industry-subtitle">We are expert in many industries</div>
+                    <div class="industry-title">Industry Solutions</div>
+                    <div class="industry-txt">As one of the leading providers of logistics solutions across the globe,
+                        Logisco has an immense portfolio of transport and contract logistics solutions that spans
+                        multiple industries.</div>
+                </div>
+                <div class="industry-main-boxs">
+                    <div class="industry-main-box">
+                        <a href="#" class="industry-main-link"></a>
+                        <div class="industry-box-icon"><img
+                                src="./images/airbus-icon.png"
+                                alt=""></div>
+                        <div class="industry-box-title">Aerospace &amp; Defense</div>
+                        <div class="industry-box-details">The Aerospace &amp; Defense industry requires innovative
+                            supply chain solutions for their unique demands.</div>
+                    </div>
+                    <div class="industry-main-box">
+                        <a href="#" class="industry-main-link"></a>
+                        <div class="industry-box-icon"><img
+                                src="./images/car-icon.png" alt="">
+                        </div>
+                        <div class="industry-box-title">Automotive</div>
+                        <div class="industry-box-details">Our worldwide network for procurement, distribution and
+                            aftermarket logistics ensures your components and vehicles.</div>
+                    </div>
+                    <div class="industry-main-box">
+                        <a href="#" class="industry-main-link"></a>
+                        <div class="industry-box-icon"><img
+                                src="./images/power-icon.png"
+                                alt=""></div>
+                        <div class="industry-box-title">Oil &amp; Gas</div>
+                        <div class="industry-box-details">When it comes to managing the logistics of oil and gas, safety
+                            and efficiency are the greatest concerns.</div>
+                    </div>
+                    <div class="industry-main-box">
+                        <a href="#" class="industry-main-link"></a>
+                        <div class="industry-box-icon"><img
+                                src="./images/hp-icon-service-4.png"
+                                alt=""></div>
+                        <div class="industry-box-title">Retail &amp; Fashion</div>
+                        <div class="industry-box-details">Speed, flexibility, and efficiency are the key in the retail
+                            industry. That’s why numerous retailers across the globe.</div>
+                    </div>
+                    <div class="industry-main-box">
+                        <a href="#" class="industry-main-link"></a>
+                        <div class="industry-box-icon"><img
+                                src="./images/hp-icon-service-5.png"
+                                alt=""></div>
+                        <div class="industry-box-title">Healthcare</div>
+                        <div class="industry-box-details">The reliable delivery of healthcare products can be
+                            lifesaving. Which is why we develop supply chain solutions.</div>
+                    </div>
+                    <div class="industry-main-box">
+                        <a href="#" class="industry-main-link"></a>
+                        <div class="industry-box-icon"><img
+                                src="./images/hp-icon-service-6.png"
+                                alt=""></div>
+                        <div class="industry-box-title">Consumer</div>
+                        <div class="industry-box-details">Logisco has an in-depth understanding of the consumer industry
+                            and offers innovative.</div>
+                    </div>
+                </div>
+                <div class="industry-lern-more">Our global logistics network, cutting-edge IT systems, in-house
+                    expertise and excellent customer service. <a href="#">Learn More</a></div>
+            </div>
+        </section>
+        <section class="contacts-main"
+            style="background-image: url(./images/hp-quote-bg.jpg);">
+            <div class="container">
+                <div class="contacts-flex">
+                    <div class="contacts-left"></div>
+                    <div class="contacts-right aos-init" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="contacts-title">Request a Free Quote</div>
+                        <div class="contacts-subtitle">We will get back to you within 24 hours in Monday – Friday /
+                            09:00 – 18:00</div>
+                        <div class="contacts-number">Or call us <span>+1-345-645-4563</span></div>
+                        <div class="contacts-input-main">
+                            <div class="contacts-input-flex">
+                                <input type="text" name="fullname" placeholder="Full Name*" required="">
+                                <input type="email" name="email" placeholder="Email*" required="">
+                            </div>
+                            <div class="contacts-input-flex">
+                                <input type="tel" name="phone" placeholder="Phone Number*" required="">
+                                <input type="text" name="cargo_type" placeholder="Cargo Type">
+                            </div>
+                            <div class="contacts-input-flex">
+                                <input type="text" name="origin" placeholder="Country of Origin">
+                                <input type="text" name="destination" placeholder="Destination">
+                            </div>
+                            <div class="contacts-input-flex">
+                                <input type="number" name="quantity" placeholder="Quantity">
+                                <input type="number" step="0.01" name="weight" placeholder="Weight">
+                            </div>
+                            <div class="contacts-input-flex">
+                                <input type="number" step="0.01" name="width" placeholder="Width">
+                                <input type="number" step="0.01" name="height" placeholder="Height">
+                            </div>
+                            <button type="submit">Submit Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="partners-main"
+            style="background-image: url(./images/hp-banner-bg-1.jpg);">
+            <div class="container">
+                <div class="partners-flex">
+                    <div class="partners-img">
+                        <img src="./images/banner-1-n.png" alt="">
+                    </div>
+                    <div class="partners-img">
+                        <img src="./images/banner-2-n.png" alt="">
+                    </div>
+                    <div class="partners-img">
+                        <img src="./images/banner-3-n.png" alt="">
+                    </div>
+                    <div class="partners-img">
+                        <img src="./images/banner-4-n.png" alt="">
+                    </div>
+                    <div class="partners-img">
+                        <img src="./images/banner-5-n.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="accordion-main"
+            style="background-image: url(./images/hp-accordion-bg.jpg);">
+            <div class="container">
+                <div class="accordion-flex">
+                    <div class="accordion-left">
+                        <div class="accordion-shorttitle">News &amp; Events</div>
+                        <div class="accordion-title">Get Updates</div>
+                        <div class="accordion-post-main">
+                            <div class="accordion-post">
+                                <div class="accordion-post-img">
+                                    <a href="#">
+                                        <img src="./images/julie-north-720432-unsplash.jpg"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="accordion-post-description">
+                                    <div class="accordion-post-date"><a href="#">June 6, 2016</a></div>
+                                    <a href="#" class="accordion-post-title">In Good Taste: Mark Finlay Architects &amp;
+                                        Interiors</a>
+                                </div>
+                            </div>
+                            <div class="accordion-post">
+                                <div class="accordion-post-img">
+                                    <a href="#">
+                                        <img src="./images/spacex-101795-unsplash.jpg"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="accordion-post-description">
+                                    <div class="accordion-post-date"><a href="#">June 6, 2016</a></div>
+                                    <a href="#" class="accordion-post-title">In Good Taste: Mark Finlay Architects &amp;
+                                        Interiors</a>
+                                </div>
+                            </div>
+                            <div class="accordion-post">
+                                <div class="accordion-post-img">
+                                    <a href="#">
+                                        <img src="./images/ronan-680083-unsplash.jpg"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="accordion-post-description">
+                                    <div class="accordion-post-date"><a href="#">June 6, 2016</a></div>
+                                    <a href="#" class="accordion-post-title">In Good Taste: Mark Finlay Architects &amp;
+                                        Interiors</a>
+                                </div>
+                            </div>
+                            <div class="accordion-post-view">
+                                <a href="#">View All Posts</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path d="M4 12H20M20 12L16 8M20 12L16 16" stroke="#e53c35" stroke-width="2.4"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-right">
+                        <div class="accordion-shorttitle">know us more</div>
+                        <div class="accordion-title">Frequently Asked Questions</div>
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <div class="accordion-header at-title active">Shipping Tracking</div>
+                                <div class="accordion-content at-tab" style="display: block;">At Logisco, we know
+                                    experience matters. That’s why customers trust us — we have more than 80 years of
+                                    experience in the logistics and transportation industry. For your air charter
+                                    services, this translates to competence around the globe. Please make sure that the
+                                    correct Reference Type matches the number being entered. Please follow these
+                                    instructions for help. That’s why customers trust us — we have more than 80 years of
+                                    experience.</div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header at-title">New Customers</div>
+                                <div class="accordion-content at-tab" style="display: none;">At Logisco, we know
+                                    experience matters. That’s why customers trust us — we have more than 80 years of
+                                    experience in the logistics and transportation industry. For your air charter
+                                    services, this translates to competence around the globe. Please make sure that the
+                                    correct Reference Type matches the number being entered. Please follow these
+                                    instructions for help. That’s why customers trust us — we have more than 80 years of
+                                    experience.</div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header at-title">Applying For a Job</div>
+                                <div class="accordion-content at-tab" style="display: none;">At Logisco, we know
+                                    experience matters. That’s why customers trust us — we have more than 80 years of
+                                    experience in the logistics and transportation industry. For your air charter
+                                    services, this translates to competence around the globe. Please make sure that the
+                                    correct Reference Type matches the number being entered. Please follow these
+                                    instructions for help. That’s why customers trust us — we have more than 80 years of
+                                    experience.</div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header at-title">Contact Info</div>
+                                <div class="accordion-content at-tab" style="display: none;">At Logisco, we know
+                                    experience matters. That’s why customers trust us — we have more than 80 years of
+                                    experience in the logistics and transportation industry. For your air charter
+                                    services, this translates to competence around the globe. Please make sure that the
+                                    correct Reference Type matches the number being entered. Please follow these
+                                    instructions for help. That’s why customers trust us — we have more than 80 years of
+                                    experience.</div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header at-title">General Enquiries</div>
+                                <div class="accordion-content at-tab" style="display: none;">At Logisco, we know
+                                    experience matters. That’s why customers trust us — we have more than 80 years of
+                                    experience in the logistics and transportation industry. For your air charter
+                                    services, this translates to competence around the globe. Please make sure that the
+                                    correct Reference Type matches the number being entered. Please follow these
+                                    instructions for help. That’s why customers trust us — we have more than 80 years of
+                                    experience.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonial-main"
+            style="background-image: url(./images/hp-testimonial-bg.jpg);">
+            <div class="container">
+                <div class="testimonial-details">
+                    <div class="testimonial-mini-title">What they say</div>
+                    <div class="testimonial-title">Client’s Testimonial</div>
+                    <div class="testimonial-subtitle">Our commitment to sustainability helps us reduce waste and share
+                        the benefits with
+                        our customers. It permeates the way we do business, driving us to innovate.</div>
+                </div>
+                <div class="client-testimonial-main slick-initialized slick-slider slick-dotted">
+                    <div class="slick-list">
+                        <div class="slick-track"
+                            style="opacity: 1; width: 2480px; transform: translate3d(0px, 0px, 0px);">
+                            <div class="client-slider-box slick-slide slick-current slick-active"
+                                style="background-image: url(./images/quote-bg.png;); width: 580px;"
+                                data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide10"
+                                aria-describedby="slick-slide-control10">
+                                <div class="client-slider-left">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#e53d34" width="800px" height="800px"
+                                        viewBox="0 0 24 24">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                        </g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path
+                                                d="M6.5 10c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.318.142-.686.238-1.028.466-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.945-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 6.5 10zm11 0c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.317.143-.686.238-1.028.467-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.944-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 17.5 10z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="client-slider-right">
+                                    <div class="client-slider-right-text">Far far away, behind the word mountains, far
+                                        from the countries Vokalia and Consonantia, there live the blind texts.
+                                        Separated they live in Bookmarksgrove right at the coast of the Semantic.</div>
+                                    <div class="client-id-flex">
+                                        <img src="./images/hp-testimonial-1.jpg"
+                                            alt="">
+                                        <div class="client-slider-details">
+                                            <div class="client-slider-name">Jonathan Smith</div>
+                                            <div class="client-slider-filed">CEO Of Public Bakery CO.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="client-slider-box slick-slide slick-active"
+                                style="background-image: url(./images/quote-bg.png;); width: 580px;"
+                                data-slick-index="1" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide11"
+                                aria-describedby="slick-slide-control11">
+                                <div class="client-slider-left">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#e53d34" width="800px" height="800px"
+                                        viewBox="0 0 24 24">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                        </g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path
+                                                d="M6.5 10c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.318.142-.686.238-1.028.466-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.945-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 6.5 10zm11 0c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.317.143-.686.238-1.028.467-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.944-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 17.5 10z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="client-slider-right">
+                                    <div class="client-slider-right-text">Far far away, behind the word mountains, far
+                                        from the countries Vokalia and Consonantia, there live the blind texts.
+                                        Separated they live in Bookmarksgrove right at the coast of the Semantic.</div>
+                                    <div class="client-id-flex">
+                                        <img src="./images/hp-testimonial-2.jpg"
+                                            alt="">
+                                        <div class="client-slider-details">
+                                            <div class="client-slider-name">Jonathan Smith</div>
+                                            <div class="client-slider-filed">CEO Of Public Bakery CO.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="client-slider-box slick-slide"
+                                style="background-image: url(./images/quote-bg.png); width: 580px;"
+                                data-slick-index="2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide12"
+                                aria-describedby="slick-slide-control12">
+                                <div class="client-slider-left">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#e53d34" width="800px" height="800px"
+                                        viewBox="0 0 24 24">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                        </g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path
+                                                d="M6.5 10c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.318.142-.686.238-1.028.466-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.945-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 6.5 10zm11 0c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.317.143-.686.238-1.028.467-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.944-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 17.5 10z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="client-slider-right">
+                                    <div class="client-slider-right-text">Far far away, behind the word mountains, far
+                                        from the countries Vokalia and Consonantia, there live the blind texts.
+                                        Separated they live in Bookmarksgrove right at the coast of the Semantic.</div>
+                                    <div class="client-id-flex">
+                                        <img src="./images/hp-testimonial-3.jpg"
+                                            alt="">
+                                        <div class="client-slider-details">
+                                            <div class="client-slider-name">Jonathan Smith</div>
+                                            <div class="client-slider-filed">CEO Of Public Bakery CO.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="client-slider-box slick-slide"
+                                style="background-image: url(./images/quote-bg.png;); width: 580px;"
+                                data-slick-index="3" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide13"
+                                aria-describedby="slick-slide-control13">
+                                <div class="client-slider-left">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#e53d34" width="800px" height="800px"
+                                        viewBox="0 0 24 24">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                        </g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path
+                                                d="M6.5 10c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.318.142-.686.238-1.028.466-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.945-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 6.5 10zm11 0c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.317.143-.686.238-1.028.467-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.944-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 17.5 10z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="client-slider-right">
+                                    <div class="client-slider-right-text">Far far away, behind the word mountains, far
+                                        from the countries Vokalia and Consonantia, there live the blind texts.
+                                        Separated they live in Bookmarksgrove right at the coast of the Semantic.</div>
+                                    <div class="client-id-flex">
+                                        <img src="./images/hp-testimonial-4.jpg"
+                                            alt="">
+                                        <div class="client-slider-details">
+                                            <div class="client-slider-name">Jonathan Smith</div>
+                                            <div class="client-slider-filed">CEO Of Public Bakery CO.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <ul class="slick-dots" style="" role="tablist">
+                        <li class="slick-active" role="presentation"><button type="button" role="tab"
+                                id="slick-slide-control10" aria-controls="slick-slide10" aria-label="1 of 2"
+                                tabindex="0" aria-selected="true">1</button></li>
+                        <li role="presentation"><button type="button" role="tab" id="slick-slide-control11"
+                                aria-controls="slick-slide11" aria-label="2 of 2" tabindex="-1">2</button></li>
+                        <li role="presentation"><button type="button" role="tab" id="slick-slide-control12"
+                                aria-controls="slick-slide12" aria-label="3 of 2" tabindex="-1">3</button></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe-main">
+            <div class="container">
+                <div class="subscribe-flex">
+                    <div class="subscribe-left">
+                        <div class="subscribe-title">Subscribe to newsletter</div>
+                        <div class="subscribe-subtitle">Far far away, behind the word mountains, far from the countries
+                            Vokalia and Consonantia, there live the blind texts</div>
+                    </div>
+                    <div class="subscribe-right">
+                        <input class="subscribe-email" placeholder="Your Email Address" type="email">
+                        <input class="subscribe-submit" type="submit" value="Subscribe">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-flex">
+                    <div class="footer-flex-left">
+                        <div class="footer-texts">
+                            <img src="./images/logo.png" alt="">
+                            <div class="footer-description">Logistco is one of the world’s leading logistics companies.
+                                Its strong market position lies in the seafreight, airfreight, contract logistics and
+                                overland businesses.</div>
+                            <div class="footer-icon">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="800px" height="800px"
+                                        viewBox="0 0 24 24">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                        </g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path
+                                                d="M12 2.03998C6.5 2.03998 2 6.52998 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.84998C10.44 7.33998 11.93 5.95998 14.22 5.95998C15.31 5.95998 16.45 6.14998 16.45 6.14998V8.61998H15.19C13.95 8.61998 13.56 9.38998 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5878 18.0622 20.3855 19.6099 18.57C21.1576 16.7546 22.0054 14.4456 22 12.06C22 6.52998 17.5 2.03998 12 2.03998Z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        fill="#ffffff" height="800px" width="800px" version="1.1" id="Layer_1"
+                                        viewBox="-143 145 512 512" xml:space="preserve">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                        </g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path
+                                                d="M329,145h-432c-22.1,0-40,17.9-40,40v432c0,22.1,17.9,40,40,40h432c22.1,0,40-17.9,40-40V185C369,162.9,351.1,145,329,145z M41.4,508.1H-8.5V348.4h49.9V508.1z M15.1,328.4h-0.4c-18.1,0-29.8-12.2-29.8-27.7c0-15.8,12.1-27.7,30.5-27.7 c18.4,0,29.7,11.9,30.1,27.7C45.6,316.1,33.9,328.4,15.1,328.4z M241,508.1h-56.6v-82.6c0-21.6-8.8-36.4-28.3-36.4 c-14.9,0-23.2,10-27,19.6c-1.4,3.4-1.2,8.2-1.2,13.1v86.3H71.8c0,0,0.7-146.4,0-159.7h56.1v25.1c3.3-11,21.2-26.6,49.8-26.6 c35.5,0,63.3,23,63.3,72.4V508.1z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="800px" height="800px"
+                                        viewBox="0 0 32 32">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                        </g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path
+                                                d="M26.922 21.014c-.106-1.321-.616-2.223-1.089-2.794.161-.716.254-1.458.254-2.223 0-5.57-4.515-10.085-10.085-10.085-.765 0-1.507.093-2.223.254-.503-.439-1.908-1.416-4.251-1.086C6.542 5.5 4.792 8.417 5 11c.111 1.379.659 2.295 1.148 2.861a10.158 10.158 0 0 0-.231 2.136c0 5.57 4.515 10.086 10.085 10.086.736 0 1.452-.084 2.143-.233.506.44 1.91 1.413 4.249 1.084 2.985-.42 4.736-3.336 4.528-5.92zm-5.938-.248c-.69.774-1.604 1.548-3.797 1.828-3.672.469-5.781-1.312-6.344-1.859s-.656-1.911-.031-2.406c.828-.656 1.512-.545 2.781.75 1.562 1.594 4.093 1.163 4.516.281.359-.75-.078-1.328-.891-1.562-.859-.248-4.05-1.047-4.609-1.266-2.873-1.123-2.219-3.859-2.094-4.297s.456-2.329 4.047-2.891c3.592-.562 5.812 1.188 5.812 1.188 1.312 1.047.797 2.406.078 2.781s-1.328.25-2.312-.656-2.312-.797-2.625-.766-1.281.109-1.515.768.172 1.043.922 1.341c1.469.583 3.362.316 5.484 1.75 2.266 1.531 1.219 4.297.578 5.016z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                                        <path fill="#ffffff"
+                                            d="M453.2 112L523.8 112L369.6 288.2L551 528L409 528L297.7 382.6L170.5 528L99.8 528L264.7 339.5L90.8 112L236.4 112L336.9 244.9L453.2 112zM428.4 485.8L467.5 485.8L215.1 152L173.1 152L428.4 485.8z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        fill="#ffffff" height="800px" width="800px" version="1.1" id="Layer_1"
+                                        viewBox="-143 145 512 512" xml:space="preserve">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                        </g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path
+                                                d="M329,145h-432c-22.1,0-40,17.9-40,40v432c0,22.1,17.9,40,40,40h432c22.1,0,40-17.9,40-40V185C369,162.9,351.1,145,329,145z M240.8,347.5c-1.1,24.9-18.5,58.9-52.2,102.1c-34.8,45.2-64.3,67.7-88.4,67.7c-14.9,0-27.5-13.7-37.8-41.3 c-6.9-25.3-13.8-50.5-20.7-75.7C34,372.7,25.8,359,17,359c-1.9,0-8.6,4-20.1,12.1l-12-15.5c12.6-11.1,25-22.2,37.3-33.2 c16.8-14.6,29.4-22.2,37.9-23c19.9-1.9,32.1,11.7,36.7,40.7c4.9,31.4,8.4,50.9,10.3,58.5c5.7,26,12,39,18.9,39 c5.3,0,13.4-8.4,24.1-25.2s16.4-29.6,17.2-38.5c1.5-14.5-4.2-21.8-17.2-21.8c-6.1,0-12.4,1.3-18.9,4c12.6-40.9,36.7-60.8,72.3-59.7 C230,297.3,242.4,314.3,240.8,347.5z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-info-title">Contact Info</div>
+                            <div class="contact-info-address">Box 3233 <br>1810 Kings Way <br>King Street, 5th Avenue,
+                                New York</div>
+                            <div class="contact-info-number">+1-2355-3345-5</div>
+                            <div class="contact-info-email">contact@logiscocorp.com</div>
+                        </div>
+                    </div>
+                    <div class="useful-links">
+                        <div class="useful-links-title">Useful Links</div>
+                        <div class="useful-links-flex">
+                            <ul class="page-link">
+                                <li><a href="#">Our Services</a></li>
+                                <li><a href="#">Industry Solutions</a></li>
+                                <li><a href="#">Investor Relation</a></li>
+                                <li><a href="#">Get A Quote</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                            <ul class="page-link">
+                                <li><a href="#">Case Study</a></li>
+                                <li><a href="#">Seeking For Career</a></li>
+                                <li><a href="#">Our Clients</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Media Relation</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-flex">
+                    <div class="footer-bottom-text">Copyright 2025 Logisco, All Right Reserved</div>
+                    <div class="footer-bottom-right">
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Updates</a>
+                        <a href="#">Services</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/jquery-min.js"></script>
+    <script src="./js/custom.js"></script>
+</body>
+
+</html>
